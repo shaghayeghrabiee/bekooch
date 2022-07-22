@@ -1,0 +1,169 @@
+
+
+@media (min-width: 1280px) {
+    .navbar-dark{
+        height: 40px;
+    }
+  .search button {
+  position: absolute;
+  top: 1px;
+  right: 310px;
+  height: 40px;
+  width: 110px;
+  background: var(--mainNav);
+  /* margin: px; */
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* old labtops */
+.navbar-darkBlue {
+    display: none;
+}
+.navbar-nav{
+margin: auto;
+}
+.nav-link{
+  margin:20px
+}
+.carousel-item img{
+  min-height: 35vh;
+}
+.search button {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  height: 40px;
+  width: 110px;
+  background: var(--mainNav);
+  /* margin: px; */
+}
+.service-card{
+  margin-top:-35px ;
+}
+.service-card p{
+  display: none;
+}
+.search{
+  margin-bottom: 70px;
+}
+.submit{
+  margin-top: 240px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* landscape and tablet */
+.navbar-darkBlue {
+    display: none;
+}
+.carousel-item img{
+  min-height: 35vh;
+}
+.search button {
+  position: absolute;
+  top: 1px;
+  right: 221px;
+  height: 40px;
+  width: 110px;
+  background: var(--mainNav);
+  /* margin: px; */
+}
+.service-card{
+  margin-top:-35px ;
+}
+.service-card p{
+  display: none;
+}
+.search{
+  margin-bottom: 70px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* smasung */
+.navbar-darkBlue {
+    display: none;
+}
+.carousel-item img{
+  min-height: 35vh;
+}
+.search button {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  height: 40px;
+  width: 110px;
+  background: var(--mainNav);
+  /* margin: px; */
+}
+.service-card{
+  margin-top:-35px ;
+}
+.service-card p{
+  display: none;
+}
+.search{
+  margin-bottom: 120px;
+}
+.submit{
+  margin-top: 300px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* iphone se iphone 5  */
+.navbar-darkBlue {
+    display: none;
+}
+.carousel-item img{
+  min-height: 35vh;
+}
+.search button {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  height: 40px;
+  width: 110px;
+  background: var(--mainNav);
+  /* margin: px; */
+}
+.service-card{
+  margin-top:-35px ;
+}
+.service-card p{
+  display: none;
+}
+.search{
+  margin-bottom: 120px;
+}
+}
+
+@media (max-width: 320) {
+.navbar-darkBlue {
+    display: none;
+}
+.carousel-item img{
+  min-height: 35vh;
+}
+.search button {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  height: 40px;
+  width: 110px;
+  background: var(--mainNav);
+  /* margin: px; */
+}
+.service-card{
+  margin-top:-35px ;
+}
+.service-card p{
+  display: none;
+}
+.search{
+  margin-bottom: 120px;
+}
+}
+
